@@ -200,19 +200,12 @@ body.active .wrapper .section{
 
 
 
-/* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop */
-/* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop *//* airdrop */
-
-
-
-
-
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius: 5% 5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px 0px 0px;
     color: cornflowerblue;
 }
 
@@ -222,7 +215,7 @@ body.active .wrapper .section{
 }
 
 .main_airdrop ul{
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 0px 5px 5px 10px;
     list-style: none;
     display: flex;
@@ -237,7 +230,7 @@ body.active .wrapper .section{
     padding: 0px 20px 0px 20px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -245,6 +238,7 @@ body.active .wrapper .section{
     color: white;
     text-decoration:none;
     background: #063970;
+    padding: -10px 15px;
 }  
 
 .main_airdrop ul li a:hover {
@@ -264,7 +258,7 @@ body.active .wrapper .section{
 }
 
 .main_airdrop p{
-    font-size: 14px;
+    font-size: 20px;
     color: black;
     font:bold;
     padding: 10px 10px;
@@ -294,7 +288,7 @@ body.active .wrapper .section{
 
 .airdroph2{
     color: cadetblue; 
-    margin:20px 0px 0px 0px;
+    margin:0px 0px 20px 0px;
     font-family: 'Grenze', serif;
     font-size: 32px;
 }
@@ -304,6 +298,7 @@ body.active .wrapper .section{
 
 /* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop */
 /* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop */
+
 
 
 
@@ -1954,7 +1949,7 @@ section {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 170px;
+    width: 60%;
     padding: 8px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; 
@@ -3034,7 +3029,7 @@ img{
 
 .product-info{
     float: left;
-    width: 45%;
+    width: 50%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 0px 50px 50px 50px;
@@ -3097,7 +3092,6 @@ img{
 }  
 
 .product-price-btn ul li a{
-    padding: 0px 20px 5px 20px;
     height: 40px;
     line-height: 40px;
     position: relative;
@@ -4418,13 +4412,12 @@ body.active .wrapper .section{
 
 
 
-
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
@@ -4434,8 +4427,8 @@ body.active .wrapper .section{
 }
 
 .main_airdrop ul{
-    margin: 20px 20px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -4447,10 +4440,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: 5px 15px 5px 15px;
+    padding:  -5px 2px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -4500,17 +4493,18 @@ body.active .wrapper .section{
 
 .airdroph1{
     color: chocolate; 
-    margin: 10px 0px 30px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .airdroph2{
     color: cadetblue; 
     margin:20px 0px 0px 0px;
     font-family: 'Grenze', serif;
-    font-size: 20px;
+    font-size: 14px;
 }
+
 
 
 
@@ -5523,7 +5517,7 @@ input:checked + .slider:before{
 
 #container .item.item_1 h3{
     color: #69b0bb;
-    font-size:16px;
+    font-size:12px;
     display: block;
     z-index: 1;
     padding: 0px;
@@ -5531,7 +5525,7 @@ input:checked + .slider:before{
 
 #container .item.item_2 h3{
     color: #f4581b;
-    font-size:16px;
+    font-size:12px;
     display: block;
     z-index: 1;
     padding: 0px;
@@ -5539,7 +5533,7 @@ input:checked + .slider:before{
 
 #container .item.item_3 h3{
     color: #504b5a;
-    font-size:16px;
+    font-size:12px;
     display: block;
     z-index: 1;
     padding: 0px;
@@ -5861,7 +5855,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 80%;
+    width: 100%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 10px 0px;
@@ -5924,7 +5918,7 @@ input:checked + .slider:before{
 }  
 
 .product-price-btn ul li a{
-    padding: 0px 10px 5px 10px;
+    padding: 0px 10px 0px 10px;
     height: 40px;
     line-height: 40px;
     position: relative;
@@ -7041,12 +7035,13 @@ body.active .wrapper .section{
 
 
 
+
 .main_airdrop{
-    padding: 0px 10px;
-    border-radius:30% 15%;
+    padding: 0px 20px;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
@@ -7056,8 +7051,8 @@ body.active .wrapper .section{
 }
 
 .main_airdrop ul{
-    margin: 20px 20px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -7069,10 +7064,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: -5px 5px ;
+    padding:  -5px 2px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -7122,16 +7117,16 @@ body.active .wrapper .section{
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .airdroph2{
     color: cadetblue; 
     margin:20px 0px 0px 0px;
     font-family: 'Grenze', serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -8481,7 +8476,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 80%;
+    width: 100%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 20px 0px;
@@ -9728,10 +9723,10 @@ body.active .wrapper .section{
 
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
@@ -9741,8 +9736,8 @@ body.active .wrapper .section{
 }
 
 .main_airdrop ul{
-    margin: 20px 20px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -9754,10 +9749,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: -10px 10px -10px 10px;
+    padding:  -5px 2px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -9784,7 +9779,7 @@ body.active .wrapper .section{
 }
 
 .main_airdrop p{
-    font-size: 10px;
+    font-size: 12px;
     color: black;
     font:bold;
     padding: 10px 10px;
@@ -9807,16 +9802,16 @@ body.active .wrapper .section{
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .airdroph2{
     color: cadetblue; 
     margin:20px 0px 0px 0px;
     font-family: 'Grenze', serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -11168,7 +11163,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 80%;
+    width: 100%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 30px 0px;
@@ -11231,7 +11226,7 @@ input:checked + .slider:before{
 }  
 
 .product-price-btn ul li a{
-    padding: 0px 10px 5px 10px;
+    padding: 0px 15px 5px 15px;
     height: 40px;
     line-height: 40px;
     position: relative;
@@ -12352,24 +12347,25 @@ body.active .wrapper .section{
 
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
 .main_airdrop, p{
     text-align: start;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .main_airdrop ul{
-    margin: 20px 20px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size:10px;
 }   
 
 .main_airdrop ul li{
@@ -12377,11 +12373,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: 0px 20px 0px 20px;
+    padding:  -10px 5px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
-    font-size:12px;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -12416,7 +12411,7 @@ body.active .wrapper .section{
 
 .{
     color: #ed4b9e;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .airdrop728x90{
@@ -12425,24 +12420,23 @@ body.active .wrapper .section{
     padding:0px;
     width: 728px;
     height: 90px;
-    margin: 80px 0px 80px 0px;
+    margin: 40px 0px;
     justify-content: center;
 }
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .airdroph2{
     color: cadetblue; 
     margin:20px 0px 0px 0px;
     font-family: 'Grenze', serif;
-    font-size: 24px;
+    font-size: 20px;
 }
-
 
 
 
@@ -13803,7 +13797,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 80%;
+    width: 100%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 30px 0px;
@@ -14991,24 +14985,25 @@ body.active .wrapper .section{
 
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
 .main_airdrop, p{
     text-align: start;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .main_airdrop ul{
-    margin: 20px 20px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size:10px;
 }   
 
 .main_airdrop ul li{
@@ -15016,11 +15011,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: 0px 20px 0px 20px;
+    padding:  -10px 5px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
-    font-size:12px;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -15053,9 +15047,9 @@ body.active .wrapper .section{
     padding: 10px 10px;
 }
 
-.a2{
-    color: black;
-    font-size: 14px;
+.{
+    color: #ed4b9e;
+    font-size: 12px;
 }
 
 .airdrop728x90{
@@ -15064,13 +15058,13 @@ body.active .wrapper .section{
     padding:0px;
     width: 728px;
     height: 90px;
-    margin: 80px 0px 80px 0px;
+    margin: 40px 0px;
     justify-content: center;
 }
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
     font-size: 30px;
 }
@@ -15081,8 +15075,6 @@ body.active .wrapper .section{
     font-family: 'Grenze', serif;
     font-size: 24px;
 }
-
-
 
 
 /* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop */
@@ -16418,7 +16410,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 35%;
+    width: 100%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 40px;
@@ -16481,7 +16473,7 @@ input:checked + .slider:before{
 }  
 
 .product-price-btn ul li a{
-    padding: 0px 10px 5px 10px;
+    padding: 0px 15px 5px 15px;
     height: 40px;
     line-height: 40px;
     position: relative;
@@ -17587,24 +17579,25 @@ body.active .wrapper .section{
 
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
 .main_airdrop, p{
     text-align: start;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .main_airdrop ul{
     margin: 20px 0px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size:10px;
 }   
 
 .main_airdrop ul li{
@@ -17612,10 +17605,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: 0px 20px 0px 20px;
+    padding:  -10px 5px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -17642,7 +17635,7 @@ body.active .wrapper .section{
 }
 
 .main_airdrop p{
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     font:bold;
     padding: 10px 10px;
@@ -17650,7 +17643,7 @@ body.active .wrapper .section{
 
 .{
     color: #ed4b9e;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .airdrop728x90{
@@ -17659,24 +17652,23 @@ body.active .wrapper .section{
     padding:0px;
     width: 728px;
     height: 90px;
-    margin: 80px 0px 80px 0px;
+    margin: 40px 0px;
     justify-content: center;
 }
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
-    font-size: 38px;
+    font-size: 34px;
 }
 
 .airdroph2{
     color: cadetblue; 
     margin:20px 0px 0px 0px;
     font-family: 'Grenze', serif;
-    font-size: 32px;
+    font-size: 28px;
 }
-
 
 
 
@@ -18992,7 +18984,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 30%;
+    width: 100%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 0px 50px 50px 50px;
@@ -19055,7 +19047,7 @@ input:checked + .slider:before{
 }  
 
 .product-price-btn ul li a{
-    padding: 0px 5px 5px 5px;
+    padding: 0px 15px 0px 15px;
     width: 100%;
     height: 40px;
     line-height: 40px;
@@ -20151,24 +20143,25 @@ body.active .wrapper .section{
 
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
 .main_airdrop, p{
     text-align: start;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .main_airdrop ul{
     margin: 20px 0px 20px 0px;
-    padding: 0px 5px 5px 10px;
+    padding: 0px;
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size:12px;
 }   
 
 .main_airdrop ul li{
@@ -20176,10 +20169,10 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: 0px 20px 0px 20px;
+    padding:  -10px 5px;
     line-height: 50px;
     display: flex;
-    border-radius:30% 15%;
+    border-radius:5%;
 }  
 
 .main_airdrop ul li a:link,
@@ -20206,7 +20199,7 @@ body.active .wrapper .section{
 }
 
 .main_airdrop p{
-    font-size: 14px;
+    font-size: 18px;
     color: black;
     font:bold;
     padding: 10px 10px;
@@ -20214,7 +20207,7 @@ body.active .wrapper .section{
 
 .{
     color: #ed4b9e;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .airdrop728x90{
@@ -20223,13 +20216,13 @@ body.active .wrapper .section{
     padding:0px;
     width: 728px;
     height: 90px;
-    margin: 80px 0px 80px 110px;
+    margin: 40px 0px;
     justify-content: center;
 }
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: -10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
     font-size: 38px;
 }
@@ -20240,7 +20233,6 @@ body.active .wrapper .section{
     font-family: 'Grenze', serif;
     font-size: 32px;
 }
-
 
 
 
@@ -21618,7 +21610,7 @@ input:checked + .slider:before{
 }  
 
 .product-price-btn ul li a{
-    padding: 0px 20px 5px 20px;
+    padding: 0px 40px 5px 40px;
     height: 40px;
     line-height: 40px;
     position: relative;
@@ -22708,27 +22700,27 @@ body.active .wrapper .section{
 
 
 
-
 .main_airdrop{
     padding: 0px 20px;
-    border-radius:30% 15%;
+    border-radius:5%;
     background: #eeeee4;
     width: 100%;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 0px;
     color: cornflowerblue;
 }
 
 .main_airdrop, p{
     text-align: start;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .main_airdrop ul{
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 0px;
     padding: 0px 5px 5px 10px;
     list-style: none;
     display: flex;
     justify-content: center;
+    font-size:10px;
 }   
 
 .main_airdrop ul li{
@@ -22736,7 +22728,7 @@ body.active .wrapper .section{
 }  
 
 .main_airdrop ul li a{
-    padding: 0px 20px 0px 20px;
+    padding: 5px 15px 5px 15px;
     line-height: 50px;
     display: flex;
     border-radius:30% 15%;
@@ -22766,7 +22758,7 @@ body.active .wrapper .section{
 }
 
 .main_airdrop p{
-    font-size: 14px;
+    font-size: 10px;
     color: black;
     font:bold;
     padding: 10px 10px;
@@ -22774,7 +22766,7 @@ body.active .wrapper .section{
 
 .{
     color: #ed4b9e;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .airdrop728x90{
@@ -22783,25 +22775,23 @@ body.active .wrapper .section{
     padding:0px;
     width: 728px;
     height: 90px;
-    margin: 80px 0px 80px 0px;
+    margin: 40px 0px;
     justify-content: center;
 }
 
 .airdroph1{
     color: chocolate; 
-    margin: 0px 0px 50px 0px; 
+    margin: 10px 0px 30px 0px; 
     font-family: 'Julee', cursive; 
-    font-size: 38px;
+    font-size: 26px;
 }
 
 .airdroph2{
     color: cadetblue; 
     margin:20px 0px 0px 0px;
     font-family: 'Grenze', serif;
-    font-size: 32px;
+    font-size: 28px;
 }
-
-
 
 
 /* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop *//* end airdrop */
