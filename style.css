@@ -3029,7 +3029,7 @@ img{
 
 .product-info{
     float: left;
-    width: 50%;
+    width: 45%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 0px 50px 50px 50px;
@@ -16410,7 +16410,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 100%;
+    width: 36%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 40px;
@@ -18984,7 +18984,7 @@ input:checked + .slider:before{
 
 .product-info{
     float: left;
-    width: 100%;
+    width: 36%;
     border-radius: 0 7px 10px 7px;
     background-color:wheat;
     margin: 0px 50px 50px 50px;
